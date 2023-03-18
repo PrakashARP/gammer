@@ -12,7 +12,7 @@ const Content = () => {
             autonomous organization (DAO). Boasting a large and experienced
             development team, hundreds of community volunteers, and a vast
             fanbase, Gammer has become a leading Web 3.0 solutions provider. We
-            are a people's DAO that has been with our community from the very
+            are a peoples DAO that has been with our community from the very
             start.
             <span className="text-orange-400 text-sm ml-2">more... </span>
           </h2>
