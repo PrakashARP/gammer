@@ -8,10 +8,10 @@ const Content = () => {
         <div className="flex flex-col ">
           <h2 className="text-5xl lg:text-6xl lg:ml-32 lg:mt-12 ml-16">About Gamer</h2>
           <h2 className="text-md lg:text-xl lg:ml-32 lg:mt-12 mr-8  mt-3 ml-16 text-justify">
-            Launched in May 2021, Gammer is a community driven decentralized
-            autonomous organization (DAO). Boasting a large and experienced
-            development team, hundreds of community volunteers, and a vast
-            fanbase, Gammer has become a leading Web 3.0 solutions provider. We
+            Launched in May 2021 Gammer is a community driven decentralized
+            autonomous organization DAO. Boasting a large and experienced
+            development team hundreds of community volunteers and a vast
+            fanbase Gammer has become a leading Web 3.0 solutions provider. We
             are a peoples DAO that has been with our community from the very
             start.
             <span className="text-orange-400 text-sm ml-2">more... </span>
