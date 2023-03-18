@@ -1,0 +1,57 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+scroll-behavior: smooth;
+font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background-color: #0D0D12;
+}
+
+.bannerBg{
+  background: url(../../public/images/bannerBg.jpg);
+}
+
+.contentBg{
+  background: url(../../public/images/nftMarket.jpg);
+
+}
+
+.star {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('https://image.flaticon.com/icons/svg/2915/2915075.svg');
+  background-size: contain;
+  animation: star-animation 2s infinite ease-in-out;
+}
+
+@keyframes star-animation {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  }
+  25% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.2);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(1);
+  }
+  75% {
+    transform: translate(-50%, -50%) rotate(540deg) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(720deg) scale(1);
+  }
+}
