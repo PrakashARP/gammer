@@ -1,4 +1,5 @@
 import { AiOutlineWeibo, AiOutlineAlipay, AiOutlineGitlab} from "react-icons/ai";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
 const Banner = ({Title, subTitleOne,subTitleTwo,subTitleThree, explore, create}) => {
@@ -12,6 +13,7 @@ const Banner = ({Title, subTitleOne,subTitleTwo,subTitleThree, explore, create})
             <h4 className="text-2xl lg:text-4xl md:text-2xl sm:text-2xl text-white text-center m-2">{subTitleTwo}</h4>
             <h4 className="text-2xl lg:text-4xl md:text-2xl sm:text-2xl text-white text-center m-2">{subTitleThree}</h4>
         </div>
+        <div className="block md:hidden lg:hidden mt-10"><ConnectButton/> </div>
 
         <div className="flex justify-center items-center mt-20 text-white">
           <AiOutlineWeibo size={130} className="hidden sm:block"/>
@@ -24,7 +26,7 @@ const Banner = ({Title, subTitleOne,subTitleTwo,subTitleThree, explore, create})
         <button className="px-8 py-3 border cursor-pointer text-white mr-3 hover:bg-indigo-50 hover:text-black ease-in duration-300">{explore}</button> 
         <button className="px-9 py-3 border text-white ml-3 hover:bg-indigo-50 hover:text-black ease-in duration-300">{create}</button>
         </div>
-        
+
 
       </div>
   );
